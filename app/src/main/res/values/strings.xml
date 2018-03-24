@@ -1,0 +1,49 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">My Order</string>
+    <!--Header text for the toppings [CHAR LIMIT = 12]-->
+
+
+    <!-- Hint text display in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="name">Name</string>
+
+    <string name="toppings">Toppings</string>
+
+    <string name="pineapple">Pineapple</string>
+    <string name="anchovy">Anchovy</string>
+    <string name="artichoke">Artichoke</string>
+    <string name="sausage">Sausage</string>
+
+    <string name="quantity">Quantity</string>
+    <string name="initial_quantity_value">1</string>
+
+    <string name="order">Place Order</string>
+    <string name="reset">Reset</string>
+
+    <!--Name format for the order summary. It will be shown in the format of "Name: Karthik"  where "Karthik" is the user's name. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_name">Name:<xliff:g id="name" example="Karthik">%s</xliff:g></string>
+
+    <!--display "yes" as an answer to any question-->
+    <string name="yes">Yes</string>
+
+    <!--display "no" as an answer to any question-->
+    <string name="no">No</string>
+
+    <!-- Displays in the format "Add Pineapple?Yes"[CHAR LIMIT=NONE]-->
+    <string name="order_summary_pineapple">Add Pineapple? <xliff:g id="addPineapple" example="yes">%s</xliff:g></string>
+
+    <!-- Displays in the format "Add Anchovy? Yes"[CHAR LIMIT=NONE]-->
+    <string name="order_summary_anchovy">Add Anchovy? <xliff:g id="addAnchovy" example="yes">%s</xliff:g></string>
+
+    <!-- Displays in the format "Add Artichoke? Yes"[CHAR LIMIT=NONE]-->
+    <string name="order_summary_artichoke">Add Artichoke? <xliff:g id="addArtichoke" example="yes">%s</xliff:g></string>
+
+    <!-- Displays in the format "Add Sausage? Yes"[CHAR LIMIT=NONE]-->
+    <string name="order_summary_sausage">Add Sausage? <xliff:g id="addSausage" example="yes">%s</xliff:g></string>
+
+    <string name="order_summary_quantity">Quantity: <xliff:g id="quantity" example="2">%d</xliff:g></string>
+    <string name="order_summary_total_price">Total: $ <xliff:g id="price" example="10">%.2f</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="too_much_pizza">Bruh you trying to be sober and vomit?</string>
+    <string name="too_little_pizza">Please order at least one pizza</string>
+    <string name="order_error">Error - Order was lost.</string>
+</resources>
