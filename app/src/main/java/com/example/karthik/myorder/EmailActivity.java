@@ -3,11 +3,13 @@ package com.example.karthik.myorder;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class EmailActivity extends AppCompatActivity {
 
     private String orderSummary;
+    private TextView ResultTextview;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,7 +17,10 @@ public class EmailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_email);
 
+        ResultTextview = findViewById(R.id.pizza_result);
+
         String orderSummary = unpackExtras();
+        ResultTextview.setText(orderSummary);
         emailOrderToRecipient(orderSummary);
     }
 
